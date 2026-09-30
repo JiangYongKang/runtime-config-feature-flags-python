@@ -1,0 +1,7 @@
+{
+  "flags": {
+    "new_checkout": {"enabled": true, "rollout_percentage": 25,
+                     "allowed_callers": ["alice", "bob"]},
+    "beta_search": {"rollout_percentage": 100, "allowed_callers": ["grace"]}
+  }
+}
