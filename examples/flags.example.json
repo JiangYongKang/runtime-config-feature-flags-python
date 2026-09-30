@@ -1,0 +1,19 @@
+{
+  "new_checkout": {
+    "status": "on",
+    "rollout_percentage": 20,
+    "allowed_callers": ["qa-team", "beta-partner"],
+    "denied_callers": ["legacy-script"],
+    "description": "新版结算链路：20% 灰度，QA 与 beta 伙伴白名单，旧脚本黑名单"
+  },
+  "dark_mode": {
+    "status": "on",
+    "rollout_percentage": 100,
+    "description": "暗色模式全量"
+  },
+  "legacy_reports": {
+    "status": "off",
+    "rollout_percentage": 0,
+    "description": "旧版报表，整体关闭"
+  }
+}
